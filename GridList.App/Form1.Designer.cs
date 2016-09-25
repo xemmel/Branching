@@ -28,20 +28,33 @@
     /// </summary>
     private void InitializeComponent()
     {
+      this.lsvTest = new System.Windows.Forms.ListView();
       this.SuspendLayout();
+      // 
+      // lsvTest
+      // 
+      this.lsvTest.Location = new System.Drawing.Point(77, 122);
+      this.lsvTest.Name = "lsvTest";
+      this.lsvTest.Size = new System.Drawing.Size(393, 234);
+      this.lsvTest.TabIndex = 0;
+      this.lsvTest.UseCompatibleStateImageBehavior = false;
       // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(713, 460);
+      this.Controls.Add(this.lsvTest);
       this.Name = "Form1";
       this.Text = "wIT ListView Grid";
+      this.Load += new System.EventHandler(this.Form1_Load);
       this.ResumeLayout(false);
 
     }
 
     #endregion
+
+    private System.Windows.Forms.ListView lsvTest;
   }
 }
 
