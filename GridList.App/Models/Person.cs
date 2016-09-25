@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GridList.App.Models
 {
-  public class Peron
+  public class Person
   {
     public string Name { get; set; }
     public DateTime BirthDay { get; set; }
